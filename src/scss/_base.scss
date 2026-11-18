@@ -12,3 +12,17 @@ img,
 video {
   display: block;
 }
+
+:root {
+  //Colors
+  --black: #170f0d;
+  --white: #fff8ef;
+  --green: #c5d841;
+  --dark-green: #4d4c20;
+
+  //Color attributes
+  --color-background: var(--black);
+  --color-text: var(--white);
+  --color-primary: var(--green);
+  --color-cta-text: var(--dark-green);
+}
