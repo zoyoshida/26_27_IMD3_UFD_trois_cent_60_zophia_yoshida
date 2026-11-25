@@ -7,7 +7,27 @@
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
-    <a href="#"><p>this is a link</p></a>
+    <a href="#" class="text-style-paragraph cta-link"> Read more - </a>
+    <h1 class="text-style-h1-mega">Lorem Ipsum</h1>
+    <p class="text-style-h1-mega">Lorem Ipsum</p>
+    <p class="text-style-paragraph">Lorem Ipsum</p>
+    <p class="text-style-paragraph-description">Lorem Ipsum</p>
+    <p class="text-style-paragraph-emphasis">Lorem Ipsum</p>
+    <p class="text-style-caption">Lorem Ipsum</p>
+
+    <include
+      src="component/article-card.html"
+      locals='{
+      "author": "Jane Doe",
+      "date": "26 Nov 26",
+      "reading_time": "2 min.",
+      "image": "img/chicken.jpeg",
+      "image_description": "a suspicious chicken",
+      "article_title": "Why did the chicken cross the road",
+      "article_description": "To get to the other side!"
+      }'
+    ></include>
+
     <script src="js/main.js" type="module"></script>
   </body>
 </html>

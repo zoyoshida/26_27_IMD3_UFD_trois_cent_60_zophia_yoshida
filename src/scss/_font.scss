@@ -1,11 +1,66 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
   --font-bebas: "Bebas Neue", sans-serif;
+  --font-albert: "Albert Sans", sans-serif;
 }
 
-.bebas-neue-regular {
+.text-style-h1-mega {
   font-family: var(--font-bebas);
+  font-size: 6rem;
+  font-weight: 400;
+}
+
+.text-style-h1 {
+  font-family: var(--font-bebas);
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.text-style-tags {
+  font-family: var(--font-bebas);
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.text-style-button {
+  font-family: var(--font-bebas);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.text-style-paragraph {
+  font-family: var(--font-albert);
   font-weight: 400;
   font-style: normal;
+  font-size: 1.25rem;
+}
+
+.text-style-paragraph-description {
+  font-family: var(--font-albert);
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1.25rem;
+}
+
+.text-style-paragraph-emphasis {
+  font-family: var(--font-albert);
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.75rem;
+}
+
+.text-style-caption {
+  font-family: var(--font-albert);
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+// MOBILE VERSION
+@media (max-width: 900px) {
+  .text-style-paragraph {
+    font-size: 1rem;
+  }
 }

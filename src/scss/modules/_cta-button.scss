@@ -1,0 +1,19 @@
+.cta-link {
+  display: inline-flex;
+  width: fit-content;
+  color: var(--color-cta-text);
+  padding: 4px 2px;
+  background: linear-gradient(
+    to bottom,
+    transparent 50%,
+    var(--color-cta-background) 50%
+  );
+  background-size: 100% 170%;
+  background-position: right top;
+  transition: all 0.15s ease-in-out;
+}
+
+.cta-link:hover {
+  background-position: right bottom;
+  color: var(--color-cta-text-hover);
+}

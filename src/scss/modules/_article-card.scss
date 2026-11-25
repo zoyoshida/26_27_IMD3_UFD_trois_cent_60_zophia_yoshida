@@ -1,0 +1,19 @@
+.article-card {
+  background-color: var(--color-background);
+  padding: var(--padding-card-desktop);
+  border-radius: var(--border-radius);
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-desktop);
+}
+
+.article-card img {
+  border-radius: var(--border-radius);
+  aspect-ratio: 16 / 9;
+}
+
+.article-details {
+  display: flex;
+  justify-content: space-around;
+}

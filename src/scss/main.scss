@@ -1,4 +1,12 @@
 @import "font";
 @import "base";
 @import "layout";
-@import "modules/example";
+@import "modules/_cta-button";
+@import "modules/_article-card";
+
+body {
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
